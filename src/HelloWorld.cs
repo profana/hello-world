@@ -52,6 +52,11 @@ namespace MyApp
 
             Logger.Info("Terminating program ...");
         }
+
+        public static void PrintElement(Library.DataStore<int, string> Store, int index)
+        {
+        }
+        
         public static void PrintElement(Library.DataStore<int, string> Store, int index)
         {
             Library.Pair<int, string>? element = Store.GetElementByIndex(index);
