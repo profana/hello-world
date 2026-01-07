@@ -30,6 +30,7 @@ namespace MyApp
 
             double x = 1.234;
             double y = 4.321;
+            double batata;
             Logger.Debug("calling Library.MyMath.Add(x, y) with x={0} and y={1} ...", x, y);
             double sum = Library.MyMath.Add(x, y);
             Logger.Debug("calling Library.MyMath.Multiply(x, y) with x={0} and y={1} ...", x, y);
